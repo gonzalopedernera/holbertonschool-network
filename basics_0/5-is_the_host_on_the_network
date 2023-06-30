@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# pings an IP address passed as an argument
+
+IP=$1
+ping -c 5 $IP
