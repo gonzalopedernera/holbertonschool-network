@@ -1,6 +1,5 @@
 #!/usr/bin/bash
 # pings an IP address passed as an argument
-
 IP=$1
 if [ -z "$IP" ]; then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}" >&2
